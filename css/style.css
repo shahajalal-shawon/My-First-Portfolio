@@ -18,16 +18,12 @@ a{
     font-weight: 700;
 }
 .section_dsc{
-        color:  #757575;
-        text-align: center;
-        font-size: 18px;
-    }
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* common css end */
-
-
-
-
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -35,7 +31,6 @@ nav{
     margin: 0 200px;
     
 }
-
 .nav_title{
 color: #181818;
 font-size: 45px;
@@ -72,18 +67,15 @@ nav ul li{
     background-position: bottom right;
 
 }
-
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .banner .profile_pic{
     width: 500px;
 }
-
 .banner_greeting{
     font-size: 45px;
     font-weight: 600;
@@ -96,12 +88,11 @@ nav ul li{
 }
 .banner_dsc{
     margin-bottom: 15px;
+    line-height: 20px;
 }
-
 .banner_content{
     max-width: 500px;
 }
-
 /* about part */
 .about{
     padding: 130px;
@@ -109,11 +100,21 @@ nav ul li{
     background: #FFF8F3;
     margin: 130px 0;
 }
-
-
-
-
-
+.btn{
+    margin-right: 5px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.about_info{
+    text-align: center;
+}
 
 
 
