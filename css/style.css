@@ -1,6 +1,6 @@
 *{
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -115,7 +115,13 @@ main{
 .about_info{
     text-align: center;
 }
+#what_i_do_dsc{
+    padding: 30px 150px;
 
+}
 
+.skill_container{
+    display: flex;
+}
 
 
